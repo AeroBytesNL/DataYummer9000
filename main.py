@@ -30,7 +30,7 @@ def insertMsgsInDb(guild_id, msg_data):
     cursor = db.cursor()
 
     cursor.executemany(
-        "INSERT INTO messages (channel_id, guild_id, author_id, content, created_at) VALUES (%s, %s, %s, %s)",
+        "INSERT INTO messages (channel_id, guild_id, author_id, content, created_at) VALUES (%s, %s, %s, %s, %s)",
         msg_data
     )
 
