@@ -92,7 +92,7 @@ async def on_ready():
                 print(f"Error fetching from {channel.name}: {e}")
 
         print("Cycle complete.\n")
-        await asyncio.sleep(10)
+        await asyncio.sleep(6)
 
 
 if __name__ == "__main__":
