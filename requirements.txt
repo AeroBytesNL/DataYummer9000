@@ -1,3 +1,5 @@
 dotenv
 disnake
 mysql-connector-python
+fastapi
+uvicorn
